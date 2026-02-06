@@ -1,0 +1,13 @@
+﻿@model Comics
+
+@if (Model != null)
+{
+    
+
+<ul>
+    <li>@Model.IdComic</li>
+    <li>@Model.Nombre</li>
+    <li><img src="@Model.Imagen" style="width:50px" /></li>
+    <li>@Model.Descripcion</li>
+</ul>
+}
